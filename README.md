@@ -22,7 +22,8 @@ https://github.com/FaridSafi/react-native-gifted-messenger
 
 # About The Server
 
-The server is Chris McCord's example.  Unmodified.
+The server is Chris McCord's example.  Only change I made was to turn off the
+server-generated PING message every 5 seconds.
 
 https://github.com/chrismccord/phoenix_chat_example
 
@@ -53,3 +54,10 @@ Make sure you have React Native 0.19+ installed on your ride.
 `npm install`
 `grab a coffee`
 `react-native run-ios` or `react-native run-android`
+
+If you're running android, you might need to reverse map some ports to get to the chat server
+by running
+
+`$ANDROID_HOME/platform-tools/adb reverse tcp:4000 tcp:4000`
+
+\o/
