@@ -2,6 +2,8 @@
 
 Here's an example of using React Native to talk to a Phoenix server with WebSockets.
 
+![Screenshot](./images/screenshot.png)
+
 # About The Client
 
 Since this is just a sample, I'm going to pretend errors and timeouts don't exist.
