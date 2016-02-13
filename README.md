@@ -8,11 +8,9 @@ Since this is just a sample, I'm going to pretend errors and timeouts don't exis
 
 In the code:
 
-`Phoenix.js` - the official JS client that ships with Phoenix framework.
-`Chat.js` - a silly wrapper around the Phoenix sockets and channel interfaces.
-`index.ios.js` - the iOS entry point
-`index.android.js` - the Android entry point
-`ChatApp.js` - the user interface
+* `Phoenix.js` - the official JS client that ships with Phoenix framework.
+* `Chat.js` - a silly wrapper around the Phoenix sockets and channel interfaces.
+* `Root.js` - the user interface
 
 The UI revolves around a hilariously fantastic 3rd party component called
 Gifted Messenger:
