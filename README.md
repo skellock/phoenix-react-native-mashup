@@ -36,11 +36,11 @@ date.  He does a great job of keep it up to date.
 
 Make sure you've installed Elixir 1.2.2+.
 
-`cd ChatServer`
-`mix deps get`
-`npm install` (recommended: for a web version of the client)
-`grab a coffee`
-`mix phoenix.server`
+* `cd ChatServer`
+* `mix deps get`
+* `npm install` (recommended: for a web version of the client)
+* `grab a coffee`
+* `mix phoenix.server`
 
 After a quick 1-time compile, your server is now up & running.  If you installed
 the web client then browser to http://localhost:4000
@@ -50,14 +50,14 @@ the web client then browser to http://localhost:4000
 
 Make sure you have React Native 0.19+ installed on your ride.
 
-`cd ChatClient`
-`npm install`
-`grab a coffee`
-`react-native run-ios` or `react-native run-android`
+* `cd ChatClient`
+* `npm install`
+* `grab a coffee`
+* `react-native run-ios` or `react-native run-android`
 
 If you're running android, you might need to reverse map some ports to get to the chat server
 by running
 
-`$ANDROID_HOME/platform-tools/adb reverse tcp:4000 tcp:4000`
+* `$ANDROID_HOME/platform-tools/adb reverse tcp:4000 tcp:4000`
 
 \o/
