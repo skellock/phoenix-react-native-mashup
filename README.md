@@ -4,6 +4,14 @@ Here's an example of using React Native to talk to a Phoenix server with WebSock
 
 ![Screenshot](./images/screenshot.png)
 
+# The Blog Post
+
+For more background and some more in-depth commentary, check out my blog post that
+goes with this repo.
+
+https://medium.com/@skellock/prototyping-a-chat-app-with-react-native-and-phoenix-5e65677a8217
+
+
 # About The Client
 
 Since this is just a sample, I'm going to pretend errors and timeouts don't exist.
@@ -12,7 +20,7 @@ In the code:
 
 * `Phoenix.js` - the official JS client that ships with Phoenix framework.
 * `Chat.js` - a silly wrapper around the Phoenix sockets and channel interfaces.
-* `Root.js` - the user interface
+* `Root.jsx` - the user interface
 
 The UI revolves around a hilariously fantastic 3rd party component called
 Gifted Messenger:
@@ -22,14 +30,14 @@ https://github.com/FaridSafi/react-native-gifted-messenger
 
 # About The Server
 
-The server is Chris McCord's example.  Only change I made was to turn off the
+The server is Chris McCord's example.  The only change I made was to turn off the
 server-generated PING message every 5 seconds.
 
 https://github.com/chrismccord/phoenix_chat_example
 
-I only included it here for convenience.  I ghetto-forked it as of at commit
-02bbbc8a295542146aef4e347dcbdc5fd0aadd69 on Feb 13, 2016.  It's probably out of
-date.  He does a great job of keep it up to date.
+I just included it here for convenience.  I ghetto-forked it as of
+`02bbbc8a295542146aef4e347dcbdc5fd0aadd69` on Feb 13, 2016.  He does a great job of
+keeping it up to date, and you should use his for your own adventures.
 
 
 # Running The Server
